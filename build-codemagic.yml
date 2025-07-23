@@ -1,5 +1,4 @@
 workflows:
-
   my-workflow:
     name: Setup Instance
     instance_type: mac_mini_m2
@@ -12,11 +11,11 @@ workflows:
       - echo "Hello World!"
 
   android-workflow-id:
-      name: Android Workflow
-      scripts:
-        - echo "Hello Android"
+    name: Android Workflow
+    scripts:
+      - echo "Hello Android"
 
   ios-workflow-id:
-      name: iOS Workflow
-      scripts:
-        - echo "Hello IOS"
+    name: iOS Workflow
+    scripts:
+      - echo "Hello IOS"
