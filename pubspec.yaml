@@ -16,6 +16,8 @@ dependencies:
   grpc: ^4.1.0
   http: ^1.4.0
   flutter_bloc: ^9.1.1
+  graphql_flutter: ^5.2.0
+  graphql: ^5.2.1
 
 dev_dependencies:
   flutter_test:
